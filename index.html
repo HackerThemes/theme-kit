@@ -1,29 +1,256 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Bootstrap 4 Theme Kit</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <title>Bootstrap 4 Theme Kit</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Custom built theme - This already includes Bootstrap 4 -->
-    <link rel="stylesheet" href="css/mytheme.min.css">
+  <!-- Custom built theme - This already includes Bootstrap 4 -->
+  <link rel="stylesheet" href="css/mytheme.min.css">
 
-  </head>
-  <body>
+</head>
+<body>
 
-    <div class="container-fluid">
-      <h1 class="bg-alex">My very own Bootstrap 4 theme</h1>
+<div class="container-fluid">
+  <div class="row mt-3">
+    <div class="col-lg-3 col-md-6">
 
-      <a href="#!" class="btn btn-cool">Hi I'm Alex</a>
-      <a href="#!" class="btn btn-primary">Hello World</a>
-      <a href="#!" class="btn btn-danger">Hello World</a>
+      <!--Alerts-->
+      <div class="alert alert-primary" role="alert">
+        This is a primary alert with <a href="#" class="alert-link">an example link</a>.
+      </div>
+      <div class="alert alert-secondary" role="alert">
+        This is a secondary alert with <a href="#" class="alert-link">an example link</a>.
+      </div>
+      <div class="alert alert-success" role="alert">
+        This is a success alert with <a href="#" class="alert-link">an example link</a>.
+      </div>
+      <div class="alert alert-danger" role="alert">
+        This is a danger alert with <a href="#" class="alert-link">an example link</a>.
+      </div>
+      <div class="alert alert-warning" role="alert">
+        This is a warning alert with <a href="#" class="alert-link">an example link</a>.
+      </div>
+      <div class="alert alert-info" role="alert">
+        This is a info alert with <a href="#" class="alert-link">an example link</a>.
+      </div>
+      <div class="alert alert-light" role="alert">
+        This is a light alert with <a href="#" class="alert-link">an example link</a>.
+      </div>
+      <div class="alert alert-dark" role="alert">
+        This is a dark alert with <a href="#" class="alert-link">an example link</a>.
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+
+      <!--Badges-->
+      <span class="badge badge-primary">Primary</span>
+      <span class="badge badge-secondary">Secondary</span>
+      <span class="badge badge-success">Success</span>
+      <span class="badge badge-danger">Danger</span>
+      <span class="badge badge-warning">Warning</span>
+      <span class="badge badge-info">Info</span>
+      <span class="badge badge-light">Light</span>
+      <span class="badge badge-dark">Dark</span>
+
+      <!--Breadcrumb-->
+      <nav aria-label="breadcrumb" role="navigation">
+        <ol class="breadcrumb mt-2">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Library</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Data</li>
+        </ol>
+      </nav>
+
+      <!--Buttons-->
+      <div>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+      </div>
+      <div class="mt-2">
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+      </div>
+
+      <!--Outline Buttons-->
+      <div class="mt-2">
+        <button type="button" class="btn btn-outline-primary">Primary</button>
+        <button type="button" class="btn btn-outline-secondary">Secondary</button>
+        <button type="button" class="btn btn-outline-success">Success</button>
+        <button type="button" class="btn btn-outline-danger">Danger</button>
+      </div>
+      <div class="mt-2">
+        <button type="button" class="btn btn-outline-warning">Warning</button>
+        <button type="button" class="btn btn-outline-info">Info</button>
+        <button type="button" class="btn btn-outline-light">Light</button>
+        <button type="button" class="btn btn-outline-dark">Dark</button>
+      </div>
+
+      <!--Checkbox buttons-->
+
+      <div class="mt-3">
+        <div class="btn-group" data-toggle="buttons">
+          <label class="btn btn-primary active">
+            <input type="checkbox" checked autocomplete="off"> Yes
+          </label>
+          <label class="btn btn-primary">
+            <input type="checkbox" autocomplete="off"> No
+          </label>
+        </div>
+        <div class="btn-group" data-toggle="buttons">
+          <label class="btn btn-secondary active">
+            <input type="checkbox" checked autocomplete="off"> Yes
+          </label>
+          <label class="btn btn-secondary">
+            <input type="checkbox" autocomplete="off"> No
+          </label>
+        </div>
+        <div class="btn-group" data-toggle="buttons">
+          <label class="btn btn-success active">
+            <input type="checkbox" checked autocomplete="off"> Yes
+          </label>
+          <label class="btn btn-success">
+            <input type="checkbox" autocomplete="off"> No
+          </label>
+        </div>
+        <div class="btn-group" data-toggle="buttons">
+          <label class="btn btn-danger active">
+            <input type="checkbox" checked autocomplete="off"> Yes
+          </label>
+          <label class="btn btn-danger">
+            <input type="checkbox" autocomplete="off"> No
+          </label>
+        </div>
+
+      </div>
+
+      <div class="mt-2">
+        <div class="btn-group" data-toggle="buttons">
+          <label class="btn btn-warning active">
+            <input type="checkbox" checked autocomplete="off"> Yes
+          </label>
+          <label class="btn btn-warning">
+            <input type="checkbox" autocomplete="off"> No
+          </label>
+        </div>
+        <div class="btn-group" data-toggle="buttons">
+          <label class="btn btn-info active">
+            <input type="checkbox" checked autocomplete="off"> Yes
+          </label>
+          <label class="btn btn-info">
+            <input type="checkbox" autocomplete="off"> No
+          </label>
+        </div>
+        <div class="btn-group" data-toggle="buttons">
+          <label class="btn btn-light active">
+            <input type="checkbox" checked autocomplete="off"> Yes
+          </label>
+          <label class="btn btn-light">
+            <input type="checkbox" autocomplete="off"> No
+          </label>
+        </div>
+        <div class="btn-group" data-toggle="buttons">
+          <label class="btn btn-dark active">
+            <input type="checkbox" checked autocomplete="off"> Yes
+          </label>
+          <label class="btn btn-dark">
+            <input type="checkbox" autocomplete="off"> No
+          </label>
+        </div>
+
+      </div>
+
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-  </body>
+    <div class="col-lg-6">
+      <div class="card text-white bg-primary mb-3 d-inline-block" style="max-width: 18rem;">
+        <div class="card-header">Header</div>
+        <div class="card-body">
+          <h4 class="card-title">Primary card title</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the
+            bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card text-white bg-secondary mb-3 d-inline-block" style="max-width: 18rem;">
+        <div class="card-header">Header</div>
+        <div class="card-body">
+          <h4 class="card-title">Secondary card title</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the
+            bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card text-white bg-success mb-3 d-inline-block" style="max-width: 18rem;">
+        <div class="card-header">Header</div>
+        <div class="card-body">
+          <h4 class="card-title">Success card title</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the
+            bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card text-white bg-danger mb-3 d-inline-block" style="max-width: 18rem;">
+        <div class="card-header">Header</div>
+        <div class="card-body">
+          <h4 class="card-title">Danger card title</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the
+            bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card text-white bg-warning mb-3 d-inline-block" style="max-width: 18rem;">
+        <div class="card-header">Header</div>
+        <div class="card-body">
+          <h4 class="card-title">Warning card title</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the
+            bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card text-white bg-info mb-3 d-inline-block" style="max-width: 18rem;">
+        <div class="card-header">Header</div>
+        <div class="card-body">
+          <h4 class="card-title">Info card title</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the
+            bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card bg-light mb-3 d-inline-block" style="max-width: 18rem;">
+        <div class="card-header">Header</div>
+        <div class="card-body">
+          <h4 class="card-title">Light card title</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the
+            bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card text-white bg-dark mb-3 d-inline-block" style="max-width: 18rem;">
+        <div class="card-header">Header</div>
+        <div class="card-body">
+          <h4 class="card-title">Dark card title</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the
+            bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <div class="row">
+  </div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+</body>
 </html>
