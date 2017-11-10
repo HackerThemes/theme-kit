@@ -5,11 +5,17 @@
 // Some example variables that you can uncomment:
 
 // Enabling shadows and gradients
-//$enable-shadows: true;
-//$enable-gradients: true;
+$enable-shadows: true;
+$enable-gradients: true;
+
+// Changing the body background and text
+$body-bg: #add1eb;
+$body-color: #151417;
+
+// Changing the border radius of buttons
+$border-radius: 15px;
 
 // Changing the primary color
-//$primary: #ff5568;
 $primary: #3ec89d;
 $secondary: #3ab7ff;
 $success: #65ff9f;
@@ -19,20 +25,8 @@ $danger: #ff457b;
 $light: #f2d4ff;
 $dark: #18181d;
 
-// Changing the body background and text
-$body-bg: #add1eb;
-$body-color: #151417;
-
 
 // Adding (!) an additional theme color (ex. classes btn-cool, bg-cool)
 //$theme-colors: (
-//  "cool": #71dbff
+//  "cool": #51fffc
 //);
-
-// Adding (!) an additional spacer value (ex. class p-8)
-//$spacers: (
-// 8: 8rem
-//);
-
-// Changing the border radius of buttons
-//$border-radius: 0;

@@ -1,0 +1,4 @@
+
+linters:
+  Comment:
+    enabled: false

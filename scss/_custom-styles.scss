@@ -1,9 +1,9 @@
 // Add additional styles here. For example, overwrite certain styles or add new components.
 // Tip: You can use bootstrap's powerful mixins here!
 
-@each $color, $value in $theme-colors {
-  .alert-#{$color} {
-    @include alert-variant(theme-color-level($color, -5), theme-color-level($color, -2), theme-color-level($color, 7));
-    box-shadow: 2px 2px $gray-600;
-  }
-}
+//@each $color, $value in $theme-colors {
+//  .alert-#{$color} {
+//    @include alert-variant(theme-color-level($color, -5), theme-color-level($color, -2), theme-color-level($color, 7));
+//    box-shadow: 2px 2px theme-color-level($color);
+//  }
+//}
