@@ -30,7 +30,7 @@ gulp.task('build-theme', function() {
     .pipe(gulp.dest('css/'))
 });
 
-gulp.task('watch', ['default'], function() {
+gulp.task('watch', ['build-theme'], function() {
   gulp.watch(['scss/*.scss'], ['build-theme']);
 });
 
