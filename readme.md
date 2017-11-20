@@ -9,12 +9,17 @@ This readme is the short version of that.
 ## What this project does
 
 This repository includes a project structure with a build script that builds a custom CSS version of Bootstrap 4, using Gulp. You can
-clone this repository, run the gulp task and go right into modifying variables and adding styles. There's also an HTML file that contains
+clone this repository, run the Gulp task and go right into modifying variables and adding styles. There's also an HTML file that contains
 a neatly organized collection of Bootstrap components that fit a 1920x1080 display, so you can instantly see the outcome.
+
+## Prerequisites
+
+- This works on Windows, macOS and Linux.
+- Node Package Manager and Gulp are required. Make sure you can run `gulp -v` and `npm -v`.
+- You can get Node at [nodjs.org](https://nodejs.org), then install gulp using `npm install gulp-cli -g'
 
 ## Getting started
 
-1. Node Package Manager and Gulp are required. Make sure you can run `gulp -v` and `npm -v`. 
 2. Clone this repo
 3. Run `npm install`
 4. Run `gulp watch`
