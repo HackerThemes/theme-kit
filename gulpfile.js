@@ -2,15 +2,12 @@ var gulp  = require('gulp'),
   sass = require('gulp-sass'),
   sourcemaps = require('gulp-sourcemaps'),
   cleanCss = require('gulp-clean-css'),
-  scsslint = require('gulp-scss-lint'),
   rename = require('gulp-rename'),
   postcss      = require('gulp-postcss'),
   autoprefixer = require('autoprefixer');
 
 gulp.task('build-theme', function() {
   return gulp.src(['scss/*.scss'])
-
-.pipe(scsslint({'config':'scsslint.yml'}))
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(postcss([ autoprefixer({ browsers: [
