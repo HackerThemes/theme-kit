@@ -16,7 +16,7 @@ a neatly organized collection of Bootstrap components that fit a 1920x1080 displ
 
 - This works on Windows, macOS and Linux.
 - Node Package Manager and Gulp are required. Make sure you can run `gulp -v` and `npm -v`.
-- You can get Node at [nodjs.org](https://nodejs.org), then install gulp using `npm install gulp-cli -g'
+- You can get Node at [nodjs.org](https://nodejs.org), then install gulp using `npm install gulp-cli -g`
 
 ## Getting started
 
