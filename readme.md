@@ -12,6 +12,11 @@ This repository includes a project structure with a build script that builds a c
 clone this repository, run the Gulp task and go right into modifying variables and adding styles. There's also an HTML file that contains
 a neatly organized collection of Bootstrap components that fit a 1920x1080 display, so you can instantly see the outcome.
 
+
+## Video Demonstration
+
+There is a short demonstration of this project on YouTube: [https://www.youtube.com/watch?v=Gi5ffoE3mPc](https://www.youtube.com/watch?v=Gi5ffoE3mPc)
+
 ## Prerequisites
 
 - This works on Windows, macOS and Linux.
