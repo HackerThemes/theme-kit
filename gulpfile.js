@@ -4,6 +4,7 @@ var gulp  = require('gulp'),
   cleanCss = require('gulp-clean-css'),
   rename = require('gulp-rename'),
   postcss      = require('gulp-postcss'),
+  browserSync = require('browser-sync').create(),
   autoprefixer = require('autoprefixer');
 
 gulp.task('build-theme', function() {
@@ -31,7 +32,16 @@ gulp.task('watch', ['build-theme'], function() {
   gulp.watch(['scss/*.scss'], ['build-theme']);
 });
 
-gulp.task('default', ['build-theme'], function() {
+gulp.task('browserSync', function() {
+    browserSync.init({
+      server: {
+          baseDir: "./"
+        }
+    });
+    gulp.watch("./css/*.css").on('change', browserSync.reload);
+});
+
+gulp.task('default', ['browserSync', 'watch'], function() {
 });
 
 
