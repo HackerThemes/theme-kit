@@ -47,4 +47,4 @@ There is a short demonstration of this project on YouTube: [https://www.youtube.
 
 ## Copyright and license
 
-Code and documentation copyright 2017 [HackerThemes](https://hacekrthemes.com) Code released under the [MIT License](https://opensource.org/licenses/MIT).
+Code and documentation copyright 2017 [HackerThemes](https://hackerthemes.com) Code released under the [MIT License](https://opensource.org/licenses/MIT).
