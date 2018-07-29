@@ -2,7 +2,7 @@
 
 This is simple starter project to help you get started quickly when making a custom Bootstrap 4 theme.
 
-There is a full tutorial avaiable at hackerthemes.com: [How to build your own Bootstrap themes](https://hackerthemes.com/kit).
+There is a full tutorial available at hackerthemes.com: [How to build your own Bootstrap themes](https://hackerthemes.com/kit).
 
 This readme is the short version of that.
 
