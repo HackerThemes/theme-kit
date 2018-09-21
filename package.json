@@ -5,12 +5,10 @@
   "repository": "https://github.com/HackerThemes/theme-kit",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp watch"
   },
-  "keywords": [
-    "bootstrap",
-    "themes"
-  ],
+  "keywords": ["bootstrap", "themes"],
   "author": "Alexander Rechsteiner",
   "license": "MIT",
   "dependencies": {
@@ -20,6 +18,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^8.2.0",
+    "browser-sync": "^2.24.7",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.9.3",
     "gulp-postcss": "^7.0.1",
