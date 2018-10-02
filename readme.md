@@ -2,7 +2,7 @@
 
 This is simple starter project to help you get started quickly when making a custom Bootstrap 4 theme.
 
-There is a full tutorial avaiable at hackerthemes.com: [How to build your own Bootstrap themes](https://hackerthemes.com/kit).
+There is a full tutorial available at hackerthemes.com: [How to build your own Bootstrap themes](https://hackerthemes.com/kit).
 
 This readme is the short version of that.
 
@@ -47,4 +47,4 @@ There is a short demonstration of this project on YouTube: [https://www.youtube.
 
 ## Copyright and license
 
-Code and documentation copyright 2017 [HackerThemes](https://hacekrthemes.com) Code released under the [MIT License](https://opensource.org/licenses/MIT).
+Code and documentation copyright 2017 [HackerThemes](https://hackerthemes.com) Code released under the [MIT License](https://opensource.org/licenses/MIT).
