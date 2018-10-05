@@ -1,6 +1,6 @@
-# Bootstrap Theme Kit: Make your own Bootstrap 4 Themes
+# Bootstrap Theme Kit: Make your own Bootstrap Themes
 
-This is simple starter project to help you get started quickly when making a custom Bootstrap 4 theme.
+This is simple starter project to help you get started quickly when making a custom Bootstrap theme.
 
 There is a full tutorial available at hackerthemes.com: [How to build your own Bootstrap themes](https://hackerthemes.com/kit).
 

@@ -1,7 +1,7 @@
 {
   "name": "theme-kit",
   "version": "1.0.1",
-  "description": "A starter project to build your own Bootstrap 4 themes",
+  "description": "A starter project to build your own Bootstrap themes",
   "repository": "https://github.com/HackerThemes/theme-kit",
   "main": "index.js",
   "scripts": {
