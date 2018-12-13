@@ -22,6 +22,7 @@ There is a short demonstration of this project on YouTube: [https://www.youtube.
 - This works on Windows, macOS and Linux.
 - Node Package Manager and Gulp are required. Make sure you can run `gulp -v` and `npm -v`.
 - You can get Node at [nodejs.org](https://nodejs.org), then install gulp using `npm install gulp-cli -g`
+- Google Chrome's Extension - livereload - [go to installer page here]('https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei')
 
 ## Getting started
 
