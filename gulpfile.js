@@ -6,33 +6,30 @@ var gulp  = require('gulp'),
   postcss      = require('gulp-postcss'),
   autoprefixer = require('autoprefixer');
 
-gulp.task('build-theme', function() {
-  return gulp.src(['scss/*.scss'])
-    .pipe(sourcemaps.init())
-    .pipe(sass().on('error', sass.logError))
-    .pipe(postcss([ autoprefixer({ browsers: [
-      'Chrome >= 35',
-      'Firefox >= 38',
-      'Edge >= 12',
-      'Explorer >= 10',
-      'iOS >= 8',
-      'Safari >= 8',
-      'Android 2.3',
-      'Android >= 4',
-      'Opera >= 12']})]))
-    .pipe(sourcemaps.write())
-    .pipe(gulp.dest('css/'))
-    .pipe(cleanCss())
-    .pipe(rename({suffix: '.min'}))
-    .pipe(gulp.dest('css/'))
-});
+function buildCss() {
+    return gulp.src(['scss/*.scss'])
+        .pipe(sourcemaps.init())
+        .pipe(sass().on('error', sass.logError))
+        .pipe(postcss([ autoprefixer({ browsers: [
+                'Chrome >= 35',
+                'Firefox >= 38',
+                'Edge >= 12',
+                'Explorer >= 10',
+                'iOS >= 8',
+                'Safari >= 8',
+                'Android 2.3',
+                'Android >= 4',
+                'Opera >= 12']})]))
+        .pipe(sourcemaps.write())
+        .pipe(gulp.dest('css/'))
+        .pipe(cleanCss())
+        .pipe(rename({suffix: '.min'}))
+        .pipe(gulp.dest('css/'))
+}
 
-gulp.task('watch', ['build-theme'], function() {
-  gulp.watch(['scss/*.scss'], ['build-theme']);
-});
+function watcher() {
+    gulp.watch(['scss/*.scss'], gulp.series(buildCss));
+}
 
-gulp.task('default', ['build-theme'], function() {
-});
-
-
-
+exports.watch = gulp.series(buildCss, watcher);
+exports.default = gulp.series(buildCss);
