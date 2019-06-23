@@ -31,5 +31,7 @@ function watcher() {
     gulp.watch(['scss/*.scss'], gulp.series(buildCss));
 }
 
+gulp.task('watch', watcher)
+
 exports.watch = gulp.series(buildCss, watcher);
 exports.default = gulp.series(buildCss);
