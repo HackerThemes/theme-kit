@@ -1,3 +1,10 @@
+# OSU Cosine Fork of theme kit
+
+This fork is designed to run inside a docker container and will monitor every subdirectory in themes/ for scss changes and compile them
+
+
+
+
 # Bootstrap Theme Kit: Make your own Bootstrap Themes
 
 This is simple starter project to help you get started quickly when making a custom Bootstrap theme.
