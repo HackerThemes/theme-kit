@@ -4,22 +4,14 @@ var gulp  = require('gulp'),
   cleanCss = require('gulp-clean-css'),
   rename = require('gulp-rename'),
   postcss      = require('gulp-postcss'),
+  browserSync = require('browser-sync').create(),
   autoprefixer = require('autoprefixer');
 
 function buildCss() {
     return gulp.src(['scss/*.scss'])
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
-        .pipe(postcss([ autoprefixer({ browsers: [
-                'Chrome >= 35',
-                'Firefox >= 38',
-                'Edge >= 12',
-                'Explorer >= 10',
-                'iOS >= 8',
-                'Safari >= 8',
-                'Android 2.3',
-                'Android >= 4',
-                'Opera >= 12']})]))
+        .pipe(postcss([ autoprefixer() ]))
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('css/'))
         .pipe(cleanCss())
@@ -28,7 +20,13 @@ function buildCss() {
 }
 
 function watcher() {
+    browserSync.init({
+      server: {
+          baseDir: "./"
+        }
+    });
     gulp.watch(['scss/*.scss'], gulp.series(buildCss));
+    gulp.watch("./css/*.css").on('change', browserSync.reload);
 }
 
 exports.watch = gulp.series(buildCss, watcher);
